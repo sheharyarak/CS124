@@ -1,0 +1,68 @@
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+unitTesting is a Catch v2.0.1 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+Add
+-------------------------------------------------------------------------------
+unitTesting.cpp:10
+...............................................................................
+
+unitTesting.cpp:12: 
+PASSED:
+  CHECK( (tree.left()).empty() == true )
+with expansion:
+  true == true
+
+unitTesting.cpp:14: 
+PASSED:
+  CHECK( (tree.left()).empty() == false )
+with expansion:
+  false == false
+
+unitTesting.cpp:15: 
+PASSED:
+  CHECK( (tree.left()).data() == "Left" )
+with expansion:
+  "Left" == "Left"
+
+-------------------------------------------------------------------------------
+Traverse Right
+-------------------------------------------------------------------------------
+unitTesting.cpp:18
+...............................................................................
+
+unitTesting.cpp:22: 
+PASSED:
+  CHECK( trav->data == "root" )
+with expansion:
+  "root" == "root"
+
+unitTesting.cpp:24: 
+PASSED:
+  CHECK( trav->data == "Right" )
+with expansion:
+  "Right" == "Right"
+
+-------------------------------------------------------------------------------
+Traverse Left
+-------------------------------------------------------------------------------
+unitTesting.cpp:27
+...............................................................................
+
+unitTesting.cpp:29: 
+PASSED:
+  CHECK( tree.data() == "root" )
+with expansion:
+  "root" == "root"
+
+unitTesting.cpp:31: 
+PASSED:
+  CHECK( tree.data() == "Left" )
+with expansion:
+  "Left" == "Left"
+
+===============================================================================
+All tests passed (7 assertions in 3 test cases)
+

@@ -1,0 +1,12 @@
+partition.cpp:38: passed: a[i] == b[i] for: 2 == 2
+partition.cpp:38: passed: a[i] == b[i] for: 16 == 16
+partition.cpp:38: passed: a[i] == b[i] for: 3 == 3
+partition.cpp:38: passed: a[i] == b[i] for: 12 == 12
+partition.cpp:38: passed: a[i] == b[i] for: 21 == 21
+partition.cpp:38: passed: a[i] == b[i] for: 78 == 78
+partition.cpp:38: passed: a[i] == b[i] for: 89 == 89
+partition.cpp:38: passed: a[i] == b[i] for: 87 == 87
+partition.cpp:38: passed: a[i] == b[i] for: 97 == 97
+0.000 s: Test Partition
+Passed 1 test case with 9 assertions.
+

@@ -1,0 +1,17 @@
+testCase.cpp:9: passed: queue != nullptr for: 0x000055a92b38bc00 != nullptr
+testCase.cpp:10: passed: queue->head == nullptr for: nullptr == nullptr
+testCase.cpp:11: passed: queue->tail == nullptr for: nullptr == nullptr
+testCase.cpp:16: passed: queue->head == nullptr for: nullptr == nullptr
+testCase.cpp:18: passed: queue->tail != nullptr for: 0x000055a92b38bb60 != nullptr
+testCase.cpp:20: passed: queue->tail->key == "beta" for: "beta" == "beta"
+testCase.cpp:22: passed: queue->tail->key == "gamma" for: "gamma" == "gamma"
+testCase.cpp:24: passed: queue->tail->key == "delta" for: "delta" == "delta"
+testCase.cpp:26: passed: queue->tail->key == "epsilon" for: "epsilon" == "epsilon"
+testCase.cpp:31: passed: queue->head->key == "alpha" for: "alpha" == "alpha"
+testCase.cpp:33: passed: queue->head->key == "beta" for: "beta" == "beta"
+testCase.cpp:35: passed: queue->head->key == "gamma" for: "gamma" == "gamma"
+testCase.cpp:37: passed: queue->head->key == "delta" for: "delta" == "delta"
+testCase.cpp:39: passed: queue->head->key == "epsilon" for: "epsilon" == "epsilon"
+testCase.cpp:41: passed: queue->head == nullptr for: nullptr == nullptr
+Passed all 3 test cases with 15 assertions.
+

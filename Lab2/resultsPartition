@@ -1,0 +1,72 @@
+Select : 0.000683342 seconds
+Sort : 0.000461662 seconds
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+select is a Catch v2.0.1 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+Partition
+-------------------------------------------------------------------------------
+partition.cpp:32
+...............................................................................
+
+partition.cpp:41: 
+PASSED:
+  CHECK( a[i] == b[i] )
+with expansion:
+  2 == 2
+
+partition.cpp:41: FAILED:
+  CHECK( a[i] == b[i] )
+with expansion:
+  16 == 12
+
+partition.cpp:41: FAILED:
+  CHECK( a[i] == b[i] )
+with expansion:
+  12 == 3
+
+partition.cpp:41: FAILED:
+  CHECK( a[i] == b[i] )
+with expansion:
+  3 == 16
+
+partition.cpp:41: FAILED:
+  CHECK( a[i] == b[i] )
+with expansion:
+  21 == 78
+
+partition.cpp:41: 
+PASSED:
+  CHECK( a[i] == b[i] )
+with expansion:
+  97 == 97
+
+partition.cpp:41: 
+PASSED:
+  CHECK( a[i] == b[i] )
+with expansion:
+  21 == 21
+
+partition.cpp:41: 
+PASSED:
+  CHECK( a[i] == b[i] )
+with expansion:
+  89 == 89
+
+partition.cpp:41: 
+PASSED:
+  CHECK( a[i] == b[i] )
+with expansion:
+  87 == 87
+
+partition.cpp:41: FAILED:
+  CHECK( a[i] == b[i] )
+with expansion:
+  78 == 21
+
+===============================================================================
+test cases:  2 | 1 passed | 1 failed
+assertions: 10 | 5 passed | 5 failed
+

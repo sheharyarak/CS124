@@ -1,0 +1,4 @@
+start, end, length: 3726, 3800, 59
+Query: cat
+parsedUrl: https:\/\/media3.giphy.com\/media\/EcCIaUBoC55uM\/giphy.gif"
+cleanedUrl: https://media3.giphy.com/media/EcCIaUBoC55uM/giphy.gif"

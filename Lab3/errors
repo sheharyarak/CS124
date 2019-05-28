@@ -1,0 +1,2 @@
+~/Labs/Lab2/partition$ g++ -g -I/home/debian -o "select" "select.cpp" "partition.cpp" ~/catch2.o -DUNIT_TEST
+grep -iE 'error|fail|Undefined|l.|Error|Fail|ERROR|FAIL|undefined' tmp.log
